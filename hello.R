@@ -5,8 +5,8 @@ calc_incidence_rate <- function(cases, population) {
   (cases / population) * 100000 
 }
 # Sample input 
-cases <- 60 
-population <- 100000 
+cases <- 90 
+population <- 120000 
 # Calculate and print result
 rate <- calc_incidence_rate(cases, population) 
 cat("Incidence rate per 100,000 people is:", round(rate, 2), "\n")
